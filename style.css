@@ -19,7 +19,6 @@ body {
 
 .navbar .container {
     display: flex;
-    flex-direction: row;
     flex-flow: row nowrap;
     justify-content: space-between;
     flex: 0 1 auto;
