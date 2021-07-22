@@ -5,7 +5,7 @@
 /* navbar */
 
 .navbar {
-    max-width: 1200px;
+    width: 1200px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     color: #707070;
@@ -64,19 +64,58 @@
 
 .searchbar {
     background-image: url('Assets/william-krause-U8Yn1zkefVs-unsplash.png');
-    max-width: 1200px;
+    width: 1200px;
     height: 674.87px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .searchbar .container {
-    display: flex;
-    flex-direction: row;
-    flex-flow: row nowrap;
-    justify-content: center;
-    flex: 0 1 auto;
-    border: 1px solid gray;
-    border-bottom-style: ridge;
+    margin: auto;
     padding: 10px 25px;
+}
+
+.searchbar .container .head-a {
+    text-align: center;
+    font-size: 25px;
+    color: #3c3636;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.searchbar .container .head-b {
+    text-align: center;
+    font-size: 50px;
+    color: #3c3636;
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.searchbar .container .head-a h1 {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.searchbar .container .head-b h1 {
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 20px;  
+}
+
+.searchbar .container .search {
+    text-align: center;
+    padding: 0;
+    width: 100%;
+}
+
+.searchbar .container .search input {
+    width: 500px;
+    height: 50px;
+    margin-top: 0;
+    padding: 0 20px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: #d8d2d2;
+    font-size: 17px;
 }
