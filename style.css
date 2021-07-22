@@ -2,9 +2,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #94949458;
+}
+
 /* navbar */
 
 .navbar {
+    background-color: white;
     width: 1200px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -64,6 +69,7 @@
 
 .searchbar {
     background-image: url('Assets/william-krause-U8Yn1zkefVs-unsplash.png');
+    background-color: white;
     width: 1200px;
     height: 674.87px;
     margin: 0 auto;
@@ -118,4 +124,21 @@
     border: 0px;
     background-color: #d8d2d2;
     font-size: 17px;
+}
+
+/* library */
+
+.library {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 1200px;
+    border: 1px solid gray;
+    padding: 100px 0px;
+}
+
+.library .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 65px 45px;
+    padding: 10px 30px;   
 }
