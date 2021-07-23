@@ -28,21 +28,24 @@ header {
     flex-flow: row nowrap;
     justify-content: space-between;
     flex: 0 1 auto;
-    padding: 10px 25px;
+    padding: 5px 25px;
     box-shadow: 0 1px #80808020;
     margin-bottom: 10px;
 }
 
 .navbar .container .zoom {
-   font-size: 20px;
+   font-size: 30px;
 }
 
 .navbar .container .navigation input {
     margin-left: 50px;
     text-decoration: none;
     color: #707070;
-    border: none;
+    border: 1px solid rgba(128, 128, 128, 0.487);
+    border-radius: 5px;
+    padding: 5px;
     background-color: white;
+    font-size: 19px;
 }
 
 .navbar .container .navigation hr {
