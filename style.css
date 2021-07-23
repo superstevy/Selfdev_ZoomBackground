@@ -15,7 +15,7 @@ header {
     background-size: cover;  
 }
 
-/* navbar */
+/* .navbar */
 
 .navbar {
     background-color: white;
@@ -78,7 +78,7 @@ header {
     font-size: 15px;
 }
 
-/* searchbar */
+/* .searchbar */
 
 .searchbar {
     background-color: #3c3b3b48;
@@ -123,13 +123,13 @@ header {
     font-size: 17px;
 }
 
-/* library */
+/* .library */
 
 .library {
     background-color: white;
     margin: 0 auto;
     max-width: 1200px;
-    border: 1px ridge gray;
+    border: 1px solid rgb(214, 214, 214);
     padding: 100px 0 5px;
 }
 
@@ -162,6 +162,92 @@ header {
 }
 
 .library .more .zoom {
+    font-size: 19px;
+    color: #707070;
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+
+
+/* searched.html */
+
+/* .header */
+
+.header {
+    background-color: white;
+    margin: 0 auto;
+}
+
+/* .result */
+
+.result {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 1200px;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 20px 0px;
+}
+
+.result .container {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse wrap;
+}
+
+.result .container .search {
+    align-items: flex-start;
+    margin-right: 20px;
+    padding: 0 5px 20px 0px;
+}
+
+.result .container .search input {
+    font-size: 16px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 20px;
+    padding: 7px 10px;
+    width: 19em;
+}
+
+.result .container .search-office {
+    width: 50%;
+    margin: 0.2% 8%;
+}
+
+.result .container .search-office p {
+    font-size: 50px;
+    line-height: 90px;
+    color:#262626;
+}
+
+.result .grid-container ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 65px 45px;
+    padding: 10px 30px;
+    margin-bottom: 150px;
+    list-style-type: none; 
+}
+
+.result .more {
+    margin: auto 30px;
+}
+
+.result .more input {
+    background-color: white;
+    margin: auto 28em;
+    width: 10em;
+    padding: 10px 30px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    color: #707070;
+    font-size: 18px;
+}
+
+.result .more hr {
+    margin-top: 140px;
+}
+
+.result .more .zoom {
     font-size: 19px;
     color: #707070;
     padding-bottom: 10px;
