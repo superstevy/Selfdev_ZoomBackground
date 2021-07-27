@@ -15,24 +15,26 @@ header {
     background-size: cover;  
 }
 
+
 /************
  .navbar 
  ************/
 
 .navbar {
-    background-color: white;
+    /* background-color: white; */
     width: 1200px;
     color: #707070;
 }
 
 .navbar .container {
+    background-color: white;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     flex: 0 1 auto;
     padding: 5px 25px;
     box-shadow: 0px 0px 3px 0px #808080;
-    margin-bottom: 10px;
+    border-bottom: 1px solid #80808026;
 }
 
 .navbar .container .zoom {
@@ -56,9 +58,8 @@ header {
 }
 
 .navbar .tags {
+    background-color: white;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
     flex: 0 1 auto;
     padding: 2px 10px;
@@ -73,7 +74,6 @@ header {
 
 .navbar .tags nav input {
     margin-left: 10px;
-    text-decoration: none;
     color: #707070;
     background-color: rgba(128, 128, 128, 0.124);
     border: 1px solid rgba(128, 128, 128, 0.07);
@@ -110,7 +110,6 @@ header {
     display: block;
     font-size: 75px;
     color: #ffffff;
-    width: 30%;
 }
 
 .searchbar .container .search {
@@ -286,4 +285,112 @@ header {
     color: #707070;
     padding-bottom: 10px;
     margin-left: 15px;
+}
+
+
+/* 
+Mobile device
+************************************/
+
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: white;
+    }
+
+    header {
+        height: 1900px;
+        background-position: -819px;
+    }
+
+    /*
+    index.html
+    *******************/
+
+    .navbar .container{
+        margin-bottom: 0;
+    }
+
+    .navbar .container .navigation hr {
+        display: none;
+    }
+
+    .navbar .tags {
+        padding: 15px;
+        background-color: #3c3b3b00;
+        
+    }
+
+    .navbar .tags nav input {
+        font-size: 20px;
+        color: #000000c4;
+        background-color: rgb(216 216 216 / 59%);
+        border: 1px solid rgba(128, 128, 128, 0.07);
+    }
+
+    .searchbar {
+        background-color: #3c3b3b48;
+        height: 1790px;
+    }
+
+    .searchbar .container .instruct {
+        margin: 40% 25% auto 265px;
+        font-size: 70px;
+    }
+
+    .searchbar .container .instruct p span {
+        margin: 0% 82% auto -110px;
+        font-size: 155px;
+    }
+
+    .searchbar .container .search input {
+        margin: auto 70px auto -205px;
+        width: 830px;
+        font-size: 40px;
+        padding: 25px;
+        border-radius: 60px;
+    }
+
+    .searchbar .container .search img {
+        width: 40px;
+        right: 195px;
+    }
+
+    .library .grid-container ul {
+        grid-template-columns: auto auto;
+    }
+
+    .library .grid-container ul li img {
+        width: 100%;
+    }
+
+    /*
+    searched.html
+    *****************************/
+
+    .result .container .search-office {
+        width: 80%;
+        margin: -5% 8%;
+    }
+
+    .result .container .search-office p {
+        font-size: 75px;
+        color: #707070;
+    }
+
+    .result .container .search-office p b {
+        font-weight: normal;
+    }
+
+    .result .grid-container ul {
+        grid-template-columns: auto auto;
+    }
+
+    .result .grid-container ul li img {
+        width: 100%;
+    }
+
+    .result .container .search .search-inner {
+        display: none;
+    }
 }
