@@ -122,25 +122,25 @@ header {
     width: 100%;
 }
 
-.searchbar .container .search .search-inner {
+.searchbar .container .search {
     display: flex;
     justify-content: center;
     position: relative;
-    right: 0;
-    left: 255px;
+    margin:auto 0 auto 250px;
+    right: auto;
+    left: 100px;
     
 }
 
-.searchbar .container .search .search-inner img {
+.searchbar .container .search img {
     width: 25px;
     position: relative;
     margin: auto;
-    right: 34%;
-    top: 41.1%;
+    right: 360px;
 }
 
-.searchbar .container .search .search-inner input {
-    margin: auto;
+.searchbar .container .search input {
+    margin: auto 0;
     width: 500px;
     font-size: 18px;
     padding: 10px;
@@ -238,14 +238,13 @@ header {
     justify-content: space-around;
     position: relative;
     right: 0;
-    left: 255px; 
+    left: 25px; 
 }
 
 .result .container .search .search-inner img {
     width: 20px;
     position: relative;
-    right: 70px;
-    top: 130px;
+    right: 65px;
 }
 
 .result .container .search .search-inner input {
