@@ -124,17 +124,18 @@ header {
 
 .searchbar .container .search .search-inner {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     position: relative;
     right: 0;
-    left: 25px;
+    left: 255px;
     
 }
 
 .searchbar .container .search .search-inner img {
     width: 25px;
-    position: fixed;
-    right: 31%;
+    position: relative;
+    margin: auto;
+    right: 34%;
     top: 41.1%;
 }
 
@@ -237,12 +238,12 @@ header {
     justify-content: space-around;
     position: relative;
     right: 0;
-    left: 25px; 
+    left: 255px; 
 }
 
 .result .container .search .search-inner img {
     width: 20px;
-    position: fixed;
+    position: relative;
     right: 70px;
     top: 130px;
 }
