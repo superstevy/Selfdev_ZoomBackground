@@ -324,7 +324,7 @@ Mobile device
     .navbar .tags nav input {
         font-size: 20px;
         color: #000000c4;
-        background-color: rgb(216 216 216 / 59%);
+        background-color: #d8d8d896;
         border: 1px solid rgba(128, 128, 128, 0.07);
     }
 
@@ -344,6 +344,7 @@ Mobile device
     }
 
     .searchbar .container .search input {
+        background-color: #ffffffbf;
         margin: auto 70px auto -205px;
         width: 830px;
         font-size: 40px;
