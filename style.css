@@ -114,29 +114,15 @@ header {
 }
 
 .searchbar .container .search {
-    position: absolute;
-    top: 40%;
-    right: 0;
-    text-align: center;
-    padding: 0;
-    width: 100%;
-}
-
-.searchbar .container .search {
     display: flex;
-    justify-content: center;
-    position: relative;
-    margin:auto 0 auto 250px;
-    right: auto;
-    left: 100px;
-    
+    margin:auto 0 auto 355px;
 }
 
 .searchbar .container .search img {
     width: 25px;
     position: relative;
     margin: auto;
-    right: 360px;
+    right: 185px;
 }
 
 .searchbar .container .search input {
