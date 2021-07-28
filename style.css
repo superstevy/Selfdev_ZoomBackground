@@ -395,3 +395,49 @@ Mobile device
         display: none;
     }
 }
+
+
+/*
+preview.html
+**************************/
+
+.preview {
+    background-color: #f4f0f0;
+}
+
+.preview .header, 
+.preview .result .container, 
+.preview .result .grid-container, 
+.preview .result .more {
+    opacity: 35%;
+}
+
+.result .figure {
+    margin: 0 5%;
+    border: none;
+    box-shadow: 7px 0px 20px 0px grey;
+    max-width: 735px;
+    position: absolute;
+    top: 170px;
+    right: 435px;
+    z-index: 5
+}
+
+.result .figure .figure-img {
+    width: 735px;
+    height: 520px;
+    margin-bottom: 0;
+}
+
+.result .figure .figure-caption {
+    font-size: 1.50em;
+    background-color: black;
+    padding: 10px;
+}
+
+.result .figure .figure-caption .text-end {
+    font-size: 0.8rem;
+    max-width: 600px;
+    float: right;
+    overflow-wrap: break-word;
+}
