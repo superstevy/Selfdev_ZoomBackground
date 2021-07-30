@@ -319,7 +319,7 @@ preview.html
     position: relative;
     top: 125px;
     left: 245px;
-    box-shadow: 15px 6px 30px 0px #000000;
+    box-shadow: 15px 6px 30px 0px #0000005c;
 }
 
 #preview .figure1 .image .figure-img {
@@ -329,8 +329,82 @@ preview.html
 
 #preview .figure1 .caption {
     color: gray;
-    max-width: 100%;
+    overflow: hidden;
+}
+
+#preview .figure1 .caption .figure-caption p {
+    display: inline;
     overflow-wrap: break-word;
+}
+
+#preview .figure1 .caption .figure-caption .textstart {
+    font-size: 25px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+#preview .figure1 .caption .figure-caption .textend {
+    font-size: 15px;
+    position: relative;
+    left: 135px;
+    bottom: 15px;
+}
+
+#preview .sm-fig {
+    max-width: fit-content;
+    position: relative;
+    bottom: 552px;
+    left: 1185px;
+    background-color: white;
+    box-shadow: 15px 6px 30px 0px #00000033;
+}
+
+#preview .sm-fig p {
+    width: fit-content;
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+}
+
+#preview .sm-fig .figure2 {
+    width: fit-content;
+    height: fit-content;
+}
+
+#preview .sm-fig .figure2 .image {
+    margin: auto;
+    width: 290px;
+    height: 200px;
+}
+
+#preview .sm-fig .figure2 .image .portrait {
+    width: 290px;
+    position: relative;
+    z-index: 1;
+}
+
+#preview .sm-fig .figure2 .image .back-img {
+    width: 276px;
+    position: relative;
+    bottom: 192px;
+    left: 7px;
+}
+
+#preview .sm-fig .figure2 .caption {
+    margin: auto 0px;
+    padding: 20px 0px;
+}
+
+#preview .sm-fig .figure2 .caption input {
+    background-color: #484646;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 45px 15px;
+    width: 255px;
+    height: 45px;
 }
 
 
