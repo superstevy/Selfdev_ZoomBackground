@@ -301,7 +301,7 @@ preview.html
 .preview .result .container, 
 .preview .result .grid-container, 
 .preview .result .more {
-    opacity: 35%;
+    opacity: 25%;
 }
 
 #preview {
@@ -444,30 +444,57 @@ Mobile device
         background-position: -819px;
     }
 
-    /*
-    index.html
-    *******************/
+    .navbar {
+        width: 100%;
+    }
 
     .navbar .container{
-        margin-bottom: 0;
+        margin-bottom: 30px;
+        box-shadow: 0px 0px 20px 0px #808080;
+
+    }
+
+    .navbar .container .zoom, .navbar .container .navigation {
+        font-size: 80px;
+        padding: 15px;
     }
 
     .navbar .container .navigation hr {
         display: none;
     }
 
+    .navbar .container .navigation input {
+        border: 1px solid rgb(38 38 38);
+        border-radius: 20px;
+        padding: 10px 20px;
+        font-size: 80px;
+    }
+
     .navbar .tags {
         padding: 15px;
         background-color: #3c3b3b00;
-        
+    }
+
+    .navbar .tags nav {
+        padding: 0;
     }
 
     .navbar .tags nav input {
-        font-size: 20px;
+        font-size: 38px;
         color: #000000c4;
         background-color: #d8d8d896;
         border: 1px solid rgba(128, 128, 128, 0.07);
     }
+
+    .result {
+        border: none;
+    }
+
+
+    /*
+    index.html
+    **************************************/
+    
 
     .searchbar {
         background-color: #3c3b3b48;
@@ -508,7 +535,7 @@ Mobile device
 
     /*
     searched.html
-    *****************************/
+    ***********************************************************/
 
     .result .container .search-office {
         width: 80%;
@@ -534,5 +561,60 @@ Mobile device
 
     .result .container .search .search-inner {
         display: none;
+    }
+
+    /*
+    preview.html
+    *******************************************************************/
+
+    .preview, 
+    .preview .result {
+        width: 1228px;
+        background-color: rgb(255 255 255);
+    }
+
+    #preview {
+        margin: auto 35px;
+    }
+
+    #preview .preview-icon, 
+    #preview .sm-fig p, 
+    #preview .sm-fig .figure2 .image {
+        display: none;
+    }
+
+    #preview .figure1 {
+        max-width: 100%;
+        top: 35%;
+        left: 0;
+        box-shadow: none;
+    }
+
+    #preview .figure1 .caption {
+        height: 50px;
+    }
+
+    #preview .figure1 .caption .figure-caption .textstart {
+        font-size: 30px;
+        top: 0px;
+    }
+
+    #preview .figure1 .caption .figure-caption .textend {
+        font-size: 10px;
+    }
+
+    #preview .sm-fig {
+        background-color: rgb(255 255 255 / 0%);
+        bottom: 0;
+        left: 0;
+        box-shadow: none;
+        float: right;
+        top: 36%;
+    }
+
+    #preview .sm-fig .figure2 .caption input {
+        width: 468px;
+        height: 98px;
+        font-size: 50px;
     }
 }
