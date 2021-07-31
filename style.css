@@ -351,6 +351,7 @@ preview.html
 #preview .figure1 .caption {
     color: gray;
     overflow: hidden;
+    margin-right: 7px
 }
 
 #preview .figure1 .caption .figure-caption p {
