@@ -3,11 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
+        <title>Favorites</title>
         <link rel="stylesheet" href="style.css" type="text/css">
     </head>
-    <body>
-        <header>
+    <body id="favorite">
+        <div class="header">
             <section class="navbar">
                 <div class="container">
                     <nav class="zoom">
@@ -44,39 +44,45 @@
                     </nav>
                 </div>
             </section>
-            <section class="searchbar">
-                    <div class="container">
-                        <div class="instruct">
-                            <p>Find your zoom <span>background</span></p>
-                        </div>
-                        <div class="search">
-                                <input type="search" placeholder="Type here..."> 
-                                <img src="Assets\icons8-search-500.svg">
-                        </div>
-                    </div>
-            </section>
-        </header>
-        <div class="library">
+        </div>
+        <div class="favorite">
+            <div class="container">
+                <div class="search">
+                    <div class="search-inner">
+                        <input type="search" value="Office space"> 
+                        <img src="Assets\icons8-search-500.svg">
+                    </div> 
+                </div>
+                <div class="title">
+                    <p>Favorites</p>
+                </div>
+            </div>
             <main class="grid-container">
                 <ul>
-                    <li><img src="Assets\mark-chaves-MiDPt7D4WN8-unsplash.png" alt="#" /></li>
-                    <li><img src="Assets\johnson-wang-iI4sR_nkkbc-unsplash.png" alt="#" /></li>
-                    <li><img src="Assets\lukasz-niescioruk-LHgq4S_Zk2w-unsplash.png" alt="#" /></li>
-                    <li><img src="Assets\alissa-de-leva-k6x-ZXSDV3Y-unsplash.png" alt="#" /></li>
-                    <li><img src="Assets\mildly-useful-sF0WlRsQdok-unsplash.png" alt="#" /></li>
-                    <li> <img src="Assets\benjamin-child-0sT9YhNgSEs-unsplash.png" alt="#" /></li>
-                    <li> <img src="Assets\nasa-Q-1.png" alt="#" /></li>
-                    <li><img src="Assets\s-o-c-i-a-l-c-u-t-EwQhB-1.png" alt="#" /></li>
-                    <li> <img src="Assets\alesia-kazantceva-VWcPlbHglYc-unsplash.png" alt="#" /></li>
-                    <li> <img src="Assets\kara-eads-L7EwHkq1B2s-unsplash.png" alt="#" /></li>
-                    <li><img src="Assets\david-fintz-z-Jaxjj0KVY-unsplash.png" alt="#" /></li>
-                    <li><img src="Assets\cowomen-1hlFqUdFv1s-unsplash.png" alt="#" /></li>
-                    <li><img src="Assets\alissa-de-leva-k6x-ZXSDV3Y-unsplash.png" alt="#" /></li>
-                    <li> <img src="Assets\mildly-useful-sF0WlRsQdok-unsplash.png" alt="#" /></li>
-                    <li><img src="Assets\benjamin-child-0sT9YhNgSEs-unsplash.png" alt="#" /></li>
-                    <li> <img src="Assets\nasa-Q-1.png" alt="#" /></li>
-                    <li><img src="Assets\s-o-c-i-a-l-c-u-t-EwQhB-1.png" alt="#" /></li>
-                    <li><img src="Assets\alesia-kazantceva-VWcPlbHglYc-unsplash.png" alt="#" /></li>
+                    <li>
+                        <img src="Assets\samantha-gades-BlIhVfXbi9s-unsplash.png" alt="#" />
+                        <input type="submit" value="-" class="mobile">
+                        <input type="submit" value="Remove" class="remove">
+                        <input type="submit" value="Download" class="download">
+                    </li>
+                    <li>
+                        <img src="Assets\nastuh-abootalebi-eHD-1.png" alt="#" />
+                        <input type="submit" value="-" class="mobile">
+                        <input type="submit" value="Remove" class="remove">
+                        <input type="submit" value="Download" class="download">                       
+                    </li>
+                    <li>
+                        <img src="Assets\laura-davidson-QBAH4IldaZY-unsplash.png" alt="#" />
+                        <input type="submit" value="-" class="mobile">
+                        <input type="submit" value="Remove" class="remove">
+                        <input type="submit" value="Download" class="download">                        
+                    </li>
+                    <li>
+                        <img src="Assets\alex-kotliarskyi-QBpZGqEMsKg-unsplash.png" alt="#" />
+                        <input type="submit" value="-" class="mobile">
+                        <input type="submit" value="Remove" class="remove">
+                        <input type="submit" value="Download" class="download">                        
+                    </li>
                 </ul>
             </main>
             <footer class="more">
