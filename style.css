@@ -12,7 +12,7 @@ body {
 header {
     background-image: url('Assets/william-krause-U8Yn1zkefVs-unsplash.png');
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover; 
 }
 
 
@@ -662,6 +662,10 @@ Mobile device
     /*
     searched.html
     *************************************************************************************************/
+
+    .header {
+        width: 1200px;
+    }
 
     .result .container .search-office {
         width: 80%;
